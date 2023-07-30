@@ -4,7 +4,7 @@ import 'package:transaction/Reciept.dart';
 import 'package:transaction/cash.dart';
 import 'package:transaction/model/transaction.dart';
 import 'package:transaction/utils/app_color.dart';
-import 'package:transaction/utils/dimention.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -79,9 +79,9 @@ class _HomeScreenState extends State<HomeScreen> {
           InkWell(
             onTap: () => Navigator.push(context,
                 MaterialPageRoute(builder: (context) =>  Receipt())),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: const [
+              children: [
                 Text(
                   "All",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),

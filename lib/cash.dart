@@ -63,7 +63,7 @@ class _CashState extends State<Cash> {
               const Text(
                 "Share With Bankly Assistant",
                 style: TextStyle(
-                    fontSize: 18, color: Color.fromARGB(255, 32, 20, 141)),
+                    fontSize: 18, color: Color.fromARGB(255, 18, 10, 94)),
               )
             ],
           ),
